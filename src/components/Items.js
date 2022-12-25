@@ -3,11 +3,11 @@ import list from './itemsList'
 
 const Items = () => {
   return (
-      <footer className='my-14  flex flex-col space-y-9 md:flex-row md:space-x-3 md:justify-between md:items-center'>
+      <footer className='my-14  flex flex-col space-y-9 md:flex-row md:space-x-3 md:justify-between md:items-end'>
           
           {
               list.map((i) => {
-                  return <div className='flex  md:w-1/3'>
+                  return <div className='flex md:w-1/3'>
                             <div className='w-24'>
                                 <img src={i.image} alt={i.alt}  className='' />
                             </div>
