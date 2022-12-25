@@ -16,9 +16,9 @@ const Items = () => {
                                 <h1 className='text-2xl font-inter font-bold text-grayish-blue'>
                                     0{i.id}
                                 </h1>
-                                <h3 className='font-extrabold font-inter text-very-dark-blue'>
+                                <h2 className='font-extrabold font-inter text-very-dark-blue'>
                                     {i.title}
-                                </h3>
+                                </h2>
                                 <p className='text-[15px] font-inter text-dark-grayish-blue'>
                                     {i.description}
                                 </p>

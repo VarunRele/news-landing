@@ -15,7 +15,7 @@ const Hero = () => {
 
               {/* Content */}
               <div className='flex flex-col md:flex-row'>
-                  <h2 id="title" className='flex-1 text-4xl font-inter font-extrabold my-3 lg:text-6xl'>
+                  <h2 id="title-main" className='flex-1 text-4xl font-inter font-extrabold my-3 lg:text-6xl'>
                       The Bright Future of Web 3.0?
                   </h2>
                   
@@ -34,7 +34,7 @@ const Hero = () => {
 
           {/* Right side */}
           <div className='h-auto bg-very-dark-blue md:w-1/3 text-white p-5'>
-              <h1 id='title' className='text-3xl text-soft-orange font-inter font-bold'>
+              <h1 id='title-side' className='text-3xl text-soft-orange font-inter font-bold'>
                   New
               </h1>
 
