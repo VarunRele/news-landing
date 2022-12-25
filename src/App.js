@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 const App = () => {
   return (
     <>
-      <div className='container max-w-sm mx-auto md:w-[65%] md:max-w-none m-3 mt-6 px-5'>
+      <div className='container max-w-sm mx-auto md:w-4/5 md:max-w-none m-3 mt-6 px-5'>
         <Navbar />
         <Hero />
         <Items />

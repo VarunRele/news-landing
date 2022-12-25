@@ -15,11 +15,11 @@ const Hero = () => {
 
               {/* Content */}
               <div className='flex flex-col md:flex-row'>
-                  <h2 id="title" className='flex-1 text-4xl font-inter font-extrabold my-3'>
+                  <h2 id="title" className='flex-1 text-4xl font-inter font-extrabold my-3 lg:text-6xl'>
                       The Bright Future of Web 3.0?
                   </h2>
                   
-                  <div className='flex-1'>
+                  <div className='flex-1 w-1/2'>
                       <p className='text-base my-2 text-dark-grayish-blue'>
                           We dive into the next evalution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fullfilling its promise?
                       </p>
