@@ -19,7 +19,7 @@ const Hero = () => {
                       The Bright Future of Web 3.0?
                   </h2>
                   
-                  <div className='flex-1 w-1/2'>
+                  <div className='flex-1 md:w-1/2'>
                       <p className='text-base my-2 text-dark-grayish-blue'>
                           We dive into the next evalution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fullfilling its promise?
                       </p>
